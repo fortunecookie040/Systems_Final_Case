@@ -52,7 +52,7 @@ Next, we plan to make it so that data is being collected in a csv so that when r
 In terms of refractors, we could maybe do something to make it so that users can download their data, which means we need something to store the data in the first place. For stretch features, we could add images using azure blob storage and disply a certain image corresponding to how the user is with their financial goals. For example, a sad cat when spending goes above the budget.
 
 7) Links (Required)
-GitHub Repo: [<INSERT-REPO-URL>](https://github.com/fortunecookie040/Systems_Final_Case.git)
+GitHub Repo: https://github.com/fortunecookie040/Systems_Final_Case.git
 Public Cloud App (optional): https://sys-final-project-qtr7bs.azurewebsites.net/
 
 
