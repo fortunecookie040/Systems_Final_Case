@@ -1,6 +1,6 @@
 # Systems_Final_Case
 Final Project for Systems
-# One-command run
+#One-command run
 pip install -r requirements.txt
 python app.py 
 
@@ -15,16 +15,16 @@ Data/Models/Services: List sources, sizes, formats, and licenses.
 | Source                   | Size                         | Format            | License             |
 | ------------------------ | ---------------------------- | ----------------- | ------------------- |
 | Data: User input (form fields) | varies; ephemeral | form data (strings, numbers) | N/A (user-provided) |
-| None | -- | -- | -- |
-| Azure App Service | F1 | Runs `app.py` in Python environment | Microsoft Azure Terms of Use |
+| Models: None | -- | -- | -- |
+| ServicesL Azure App Service | F1 | Runs `app.py` in Python environment | Microsoft Azure Terms of Use |
 
 3) How to Run (Local)
 Choose Docker or Apptainer and provide a single command.
-# Install the dependencies
+#Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-# Expose the port the app runs on
+#Expose the port the app runs on
 EXPOSE 5000
-# Command to run the application
+#Command to run the application
 CMD ["python", "app.py"]
 
 4) Design Decisions
