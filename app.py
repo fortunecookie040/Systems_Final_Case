@@ -149,6 +149,9 @@ def budget_plot():
     # y-axis: big enough for both spending and remaining
     ymax_source = max(monthly_budget, max_daily_spend, max_remaining, 1.0)
     ax.set_ylim(0, ymax_source * 1.1)
+    ymin_source = -monthly_budget
+    ax.set_ylim(ymin_source, ymax_source * 1.1)
+
 
     fig.autofmt_xdate()
 
