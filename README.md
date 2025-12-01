@@ -22,15 +22,41 @@ Data/Models/Services: List sources, sizes, formats, and licenses.
 | Models: None | -- | -- | -- |
 | Services: Azure App Service | F1 | Runs `app.py` in Python environment | Microsoft Azure Terms of Use |
 
-3) How to Run (Local)
+3) How to Run (Local) with Docker
 
-Choose Docker or Apptainer and provide a single command.
-#Install the dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-#Expose the port the app runs on
-EXPOSE 5000
-#Command to run the application
-CMD ["python", "app.py"]
+Download Docker
+1. Download docker @ https://www.docker.com/get-started/
+2. Build the Docker image
+
+From the project root, run:
+
+```sh
+docker build -t flask-survey-app .
+```
+
+3. Run the Docker container
+
+```sh
+docker run -p 5000:5000 flask-survey-app
+```
+
+if something is running on 5000 and you are unable to figure out what
+
+use
+```sh
+docker run --rm -p 8000:5000 flask-survey-app
+```
+
+4. Open the app in your browser
+
+```sh
+$BROWSER http://localhost:5000
+```
+if you used 8000
+```sh
+$BROWSER http://localhost:8000
+```
+
 
 4) Design Decisions
 
