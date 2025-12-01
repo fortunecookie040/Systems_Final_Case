@@ -76,13 +76,14 @@ Brief performance notes or resource footprint (if relevant).
 - Another limitation is that we lose data when the app is refreshed.
   
 Validation/tests performed and outcomes.
-Validation tests worked. We put values that were big in budget, small in inputs and vise versa. We also tried clearing the plot when there was no budget and We got an error telling us to put a budget number. I also tried putting a negative number and that did not work. 
+Validation tests worked. We put values that were big in budget, small in inputs and vise versa. We also tried clearing the plot when there was no budget and we got an error telling us to put a budget number. We also tried putting a negative number and that did not work. Validations work correctly.
 
 6) What’s Next
 
 Planned improvements, refactors, and stretch features
 Next, we plan to make it so that data is being collected in a csv so that when refreshed, we won't lose the data that we currently have. In addition, we would like to add an undo or add to function in case the user accidentally puts the wrong input amount or want to edit their input amount. We could also change the x and y ticks to days of the week or just a number. We can change the dates to something more readable.
-In terms of refractors, we could maybe do something to make it so that users can download their data, which means we need something to store the data in the first place. For stretch features, we could add images using azure blob storage and disply a certain image corresponding to how the user is with their financial goals. For example, a sad cat when spending goes above the budget.
+In terms of refractors, we could maybe do something to make it so that users can download their data, which means we need something to store the data in the first place. 
+For stretch features, we could add images using azure blob storage and disply a certain image corresponding to how the user is with their financial goals. For example, a sad cat when spending goes above the budget.
 
 7) Links (Required)
 
