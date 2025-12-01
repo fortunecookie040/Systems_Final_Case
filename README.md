@@ -19,7 +19,7 @@ Data/Models/Services: List sources, sizes, formats, and licenses.
 | ------------------------ | ---------------------------- | ----------------- | ------------------- |
 | Data: User input (form fields) | varies; ephemeral | form data (strings, numbers) | N/A (user-provided) |
 | Models: None | -- | -- | -- |
-| ServicesL Azure App Service | F1 | Runs `app.py` in Python environment | Microsoft Azure Terms of Use |
+| Services: Azure App Service | F1 | Runs `app.py` in Python environment | Microsoft Azure Terms of Use |
 
 3) How to Run (Local)
 
