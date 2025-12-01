@@ -1,4 +1,5 @@
 # Systems_Final_Case
+Team: Chloe Wang and Angel Jiang
 Final Project for Systems
 
 #One-command run
