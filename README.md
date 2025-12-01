@@ -24,7 +24,6 @@ Data/Models/Services: List sources, sizes, formats, and licenses.
 
 3) How to Run (Local) with Docker
 
-Download Docker
 1. Download docker @ https://www.docker.com/get-started/
 2. Build the Docker image
 
