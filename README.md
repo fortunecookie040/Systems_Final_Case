@@ -3,10 +3,6 @@ Team: Chloe Wang and Angel Jiang
 
 Final Project for Systems
 
-#One-command run
-pip install -r requirements.txt
-python app.py 
-
 1) Executive Summary
 
 We created this app as a solution for college students trying to make sense of their financial state. Many of us enter college with little to no knowledge of how to budget or control our spending habits. Part of the issue is that we cannot easily keep track of our spending every day, as many opt to check occasionally or when they need to pay off their credit card bills. In fact, I have tried budgeting before; however, I found the process tedious and time-consuming. It was inconvenient as I couldn't easily edit the spreadsheet on my phone while I'm out, and it was hard to remember the exact amount I purchased. Therefore, this app offers a cute and efficient way for college students to track their spending. It's one page, so there is no need to navigate through many pages. In addition, it has a plot tracking the amount spent per day in a month, allowing simple visual comparisons. On the left, there are prompts for the user, allowing them to do a one-time setting of the budget. After that, the user only has to input a number and hit the log button. The graph will display a line plot with a blue line corresponding to how much the user spent and the orange representing the amount of budget left. Each will update whenever the log button is hit. When the lines intersect, that means the user has gone above their budget. This allows a quick, real time visual cue for the user. 
